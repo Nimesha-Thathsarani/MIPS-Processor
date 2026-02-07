@@ -1,0 +1,6 @@
+loadi 2 0x0A
+swi 2 0x01
+lwi 1 0x01
+loadi 3 0x02
+swd 2 3
+lwd 4 3
