@@ -1,0 +1,4 @@
+loadi 0 0x03
+loadi 1 0x05
+bne 0 1 0x01
+mult 2 0 1
