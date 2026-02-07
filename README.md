@@ -1,13 +1,13 @@
 # MIPS-Processor
 
-# Simple MIPS-like Processor – Verilog HDL
+## Simple MIPS-like Processor – Verilog HDL
 
 This repository contains the implementation of a **simple 8-bit single-cycle MIPS-like processor** developed as part of **CO224 – Computer Architecture** laboratory sessions at the **Department of Computer Engineering**.
 
 The processor is designed and implemented using **Verilog HDL**, following a step-by-step approach from basic components to a fully working CPU with flow control instructions.
 
 
-# Features
+## Features
 
 * **8-bit ALU** supporting:
 
@@ -26,9 +26,8 @@ The processor is designed and implemented using **Verilog HDL**, following a ste
 * **32-bit fixed-length instruction format**
 * Artificial delays added to simulate realistic hardware latencies
 
----
 
-## 🧠 Supported Instruction Set
+## Supported Instruction Set
 
 | Instruction        | Description          |
 | ------------------ | -------------------- |
@@ -41,9 +40,8 @@ The processor is designed and implemented using **Verilog HDL**, following a ste
 | `j offset`         | Jump relative to PC  |
 | `beq offset rs rt` | Branch if rs == rt   |
 
----
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ├── alu.v           # 8-bit ALU implementation
@@ -54,9 +52,8 @@ The processor is designed and implemented using **Verilog HDL**, following a ste
 └── README.md
 ```
 
----
 
-## ⏱️ Timing Model
+## Timing Model
 
 * Single-cycle CPU (8 time units per instruction)
 * Artificial delays added for:
@@ -69,9 +66,8 @@ The processor is designed and implemented using **Verilog HDL**, following a ste
 
 These delays help visualize datapath behavior using tools like **GTKWave**.
 
----
 
-## 🧪 Testing
+## Testing
 
 * Instructions are hardcoded in the testbench as machine code
 * Multiple test programs used to validate:
@@ -81,9 +77,8 @@ These delays help visualize datapath behavior using tools like **GTKWave**.
   * Branching and jumping
 * Timing diagrams verified using **GTKWave**
 
----
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * Verilog HDL
 * GTKWave
