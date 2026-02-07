@@ -41,18 +41,6 @@ The processor is designed and implemented using **Verilog HDL**, following a ste
 | `beq offset rs rt` | Branch if rs == rt   |
 
 
-## Project Structure
-
-```
-├── alu.v           # 8-bit ALU implementation
-├── reg_file.v      # 8x8 register file
-├── cpu.v           # Top-level CPU with control logic
-├── testbench.v     # Testbench with hardcoded programs
-├── diagrams/       # Timing diagrams & datapath diagrams
-└── README.md
-```
-
-
 ## Timing Model
 
 * Single-cycle CPU (8 time units per instruction)
